@@ -2,7 +2,25 @@
 
 > a full stack mern todo app
 
-## Usage
+## Getting Started (Development)
+
+Start Development Environment using `docker-compose`
+
+```
+docker-compose -f dev.docker-compose.yml up
+```
+
+> Once the containers are running head over to `http://localhost:5173` to access the dev version of the application
+
+Stop the Development Environment
+
+```sh
+docker-compose down
+# or
+docker-compose down --rmi all -v # to remove containers, images, and volumes
+```
+
+## Getting Started (Production)
 
 Start the application using `docker-compose`
 
