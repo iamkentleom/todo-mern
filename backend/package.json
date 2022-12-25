@@ -5,11 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node -r esm app",
-    "dev": "nodemon -r esm app"
-  },
-  "engines": {
-    "node": "~16.13.1",
-    "npm": "~8.1.2"
+    "dev": "nodemon -L -r esm app"
   },
   "author": "Kent Leo L. Makibulan",
   "license": "ISC",
